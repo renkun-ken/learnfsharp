@@ -12,15 +12,17 @@ let pis = pi ** 3.0
 let pxy = pi * float x * float y
 let pid = 3.14
 let isTrue = false
-let mutable val1 = 10.0
 
+// All values are immutable unless mutable keyword is used
+let mutable val1 = 10.0
 val1 <- 20.0
 
 // Conversion
 let double1 = double "123.23"
 let float2 = float "123"
 let int3 = int "123"
-// Using in-built functions
+
+// Using built-in functions
 let sin1 = sin pi
 let exp1 = exp 2.0
 let sin2 = sin(pi * 1.5)
@@ -28,6 +30,7 @@ let log1 = log 2.0
 let log2 = log10 100.0
 let sqrt1 = sqrt 4.0
 let pown1 = pown 2 8
+
 // Defining Functions
 let diameter r = 2.0 * pi * r
 let area r = pi * r ** 2.0
@@ -49,6 +52,7 @@ let add10(x: float) = x + 10.0
 let add10Days(date: System.DateTime) = date.AddDays(10.0)
 let addDays (date: System.DateTime) days = date.AddDays(days)
 let addDays2(date: System.DateTime, days) = date.AddDays(days)
+
 // Strings
 let str1 = "Hello"
 let char1 = 'P'
@@ -60,15 +64,16 @@ let str3 = """
     this is a string.
     """
 
-
-
 // Using primitive functions
 // http://fsharpforfunandprofit.com/posts/printf/
 printfn "The answer to everything is %d" 42
 printfn "%s is an %d-year-old %s of height %3.1f cm" "James" 18 "boy" 172.54
-
+printfn "The count of %s is %d, which cost %.2f in total" "apples" 20 35.4
+let str4 = sprintf "The number is %d" 100
+let strlen4 = String.length str4
 // Using .NET member functions
 let str1len = str1.Length
+
 // Tuples
 let p1 = ("A", 23)
 let p2 = ("B", 24)
