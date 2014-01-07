@@ -6,46 +6,46 @@
 open MathNet.Numerics
 open FSharp.Charting
 
-module RandomNumbers = 
+module RandomNumbers =
     open MathNet.Numerics.Random
-    
+
     let rnd = Random.mersenneTwister()
-    
-    let sample = 
-        seq { 
+
+    let sample =
+        seq {
             for i in 1..1000 -> rnd.NextDouble()
         }
         |> Seq.toArray
 
-module Probability = 
+module Probability =
     open MathNet.Numerics.Distributions
-    
+
     let normal = Normal(0.0, 2.0)
     let nmean = normal.Mean
     let nvar = normal.Variance
     let ncum1 = normal.CumulativeDistribution(4.0)
     let nentropy = normal.Entropy
-    
-    let nsample = 
+
+    let nsample =
         normal.Samples()
         |> Seq.take 1000
         |> Chart.Point
-    
+
     let gamma = Gamma(2.0, 1.5)
     let gmean = gamma.Mean
     let gvar = gamma.Variance
     let gcum1 = gamma.CumulativeDistribution(4.0)
     let gentropy = gamma.Entropy
-    
-    let gsample = 
+
+    let gsample =
         gamma.Samples()
         |> Seq.take 1000
         |> Chart.Point
 
-module Staitstics = 
+module Staitstics =
     open MathNet.Numerics.Distributions
     open MathNet.Numerics.Statistics
-    
+
     let normal = Normal(0.0, 2.0)
     let nsample = normal.Samples() |> Seq.take 1000
     let nstats = DescriptiveStatistics(nsample)
@@ -67,9 +67,7 @@ module Staitstics =
     let gstddev = gsample.StandardDeviation()
     let g25q = gsample.Quantile(0.25)
     let g75q = gsample.Quantile(0.75)
-    let gqs = 
-        [| 0.05; 0.25; 0.50; 0.75; 0.95 |] 
-        |> Array.map(fun q -> gsample.Quantile(q))
+    let gqs = [| 0.05; 0.25; 0.50; 0.75; 0.95 |] |> Array.map(fun q -> gsample.Quantile(q))
     let gpvar = gsample.PopulationVariance()
     let gpstddev = gsample.PopulationStandardDeviation()
     // Histogram
@@ -78,9 +76,9 @@ module Staitstics =
     // Correlation
     let corr = Correlation.Pearson(nsample, gsample)
 
-module LinearAlgebra = 
+module LinearAlgebra =
     open MathNet.Numerics.LinearAlgebra.Double
-    
+
     let x = DenseVector.ofSeq(seq { 1.0..5.0 })
     let A = DenseMatrix.create 5 5 2.0
     let y = A * x

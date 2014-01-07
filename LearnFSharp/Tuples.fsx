@@ -16,6 +16,6 @@ let c = fst(1, 2)
 let d = snd(1, 2)
 let third(_, _, c) = c
 
-let distance point = 
+let distance point =
     match point with
     | (x, y) -> sqrt(x ** 2.0 + y ** 2.0)
