@@ -97,10 +97,12 @@
     <None Include="IO-Programming.fsx" />
     <None Include="Query-Expressions.fsx" />
     <None Include="Type-Providers.fsx" />
-    <None Include="Financial-Computing.fsx" />
+    <None Include="DataFrame.fsx" />
+    <None Include="TimeSeries.fsx" />
     <None Include="Econometrics.fsx" />
     <None Include="Data-Visualization.fsx" />
     <None Include="Parallel-Computing.fsx" />
+    <None Include="Financial-Computing.fsx" />
     <None Include="Data-Mining.fsx" />
     <None Include="Advanced.Reference-Cells.fsx" />
     <None Include="Exercises.fsx" />
