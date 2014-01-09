@@ -1,9 +1,7 @@
-﻿// F# Training
-// Kun Ren <renkun@outlook.com>
-// Essentials
+﻿// Essentials
 // Defining values
 // http://msdn.microsoft.com/en-us/library/dd233230.aspx
-// Primitive types
+// Binding statements and Primitive types
 let x = 1
 let y = x + 1
 let pi = 3.14
@@ -14,8 +12,7 @@ let pid = 3.14
 let isTrue = false
 // All values are immutable unless mutable keyword is used
 let mutable val1 = 10.0
-
-val1 <- 20.0
+val1 <- 20.0 // assign a value to a mutable
 
 // Conversion
 let double1 = double "123.23"
@@ -33,13 +30,13 @@ let pown1 = pown 2 8
 let diameter r = 2.0 * pi * r
 let area r = pi * r ** 2.0
 
-let fun1 x y z =
+let fun1 x y z = 
     let p1 = x + y
     let p2 = y + z
     let p3 = x * y * z
     (p1 + p2) / p3
 
-let inUnitCircle x y =
+let inUnitCircle x y = 
     let distance = sqrt(x ** 2.0 + y ** 2.0)
     distance <= 1.0
 
@@ -79,10 +76,10 @@ let name1, num1 = p1
 // Array
 let numarray = [| 1; 2; 3 |]
 
-let numarray1 =
+let numarray1 = 
     [| for i in 1..10 -> i * i |]
 
-let numarray2 =
+let numarray2 = 
     [| for i in 1.0..0.5..5.0 -> i ** 2.0 |]
 
 numarray.[0] <- 2
@@ -90,23 +87,23 @@ numarray.[0] <- 2
 // List
 let numlist = [ 1; 2; 3 ]
 
-let numlist1 =
+let numlist1 = 
     [ for i in 1..10 -> i * i ]
 
-let numlist2 =
+let numlist2 = 
     [ for i in 1.0..0.5..5.0 -> i ** 2.0 ]
 
 let numlist3 = 0 :: numlist
 let numlist4 = numlist @ numlist1
 
-let numlist5 =
+let numlist5 = 
     [ for i in 1..10 do
           let x = i + 1
           let y = float i ** 2.0
           yield x, y ]
 
 // Dictionary
-let dict1 =
+let dict1 = 
     dict [ ("A1", 100)
            ("A2", 300)
            ("A5", 150) ]
@@ -117,43 +114,43 @@ let op1 = Some 2.0
 let op2 = None
 
 // Sequences
-let seq1 =
-    seq {
+let seq1 = 
+    seq { 
         for i in 1..100 -> i, 2 * i + 1, (float i) ** 2.0 / 3.0
     }
 
 // Recursion
-let rec funr1 x =
+let rec funr1 x = 
     if x <= 10 then x + funr1 1
     else 1
 
 // Pattern Matching
-let function1 x =
+let function1 x = 
     match x with
     | a, b -> a + b
 
 // Discriminate Unions
-type Gender =
+type Gender = 
     | Male
     | Female
 
 // Records
-type Person =
+type Person = 
     { Name: string
       Gender: Gender
       Age: int }
 
-let person1 =
+let person1 = 
     { Name = "Ken"
       Gender = Male
       Age = 23 }
 
-let person2 =
+let person2 = 
     { Name = "James"
       Gender = Male
       Age = 24 }
 
-let person3 =
+let person3 = 
     { Name = "Penny"
       Gender = Female
       Age = 22 }

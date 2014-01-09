@@ -1,4 +1,5 @@
 ﻿// Query Expressions
+// TODO: Change to local database
 #r "System.Data.dll"
 #r "System.Data.Linq.dll"
 #r "FSharp.Data.TypeProviders.dll"
