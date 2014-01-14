@@ -7,10 +7,7 @@ type Point =
     member a.length = a.x + a.y
 
 type Customer =
-    { First: string
-      Last: string
-      SSN: uint32
-      AccountNumber: uint32 }
+    { First }
 
 let myPoint =
     { x = 1.0

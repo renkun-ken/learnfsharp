@@ -42,7 +42,6 @@ let report(date: System.DateTime) =
     else if date.Date.AddDays(1.0) = System.DateTime.Today then printfn "The date is yesterday."
     else
         if date.Date.AddDays(-1.0) = System.DateTime.Today then printfn "The date is tomorrow."
-
 // Loop statements
 // for..to loop
 // http://msdn.microsoft.com/en-us/library/dd233236.aspx
@@ -75,6 +74,13 @@ let grade scores =
             else if score > 70 then yield "C"
             else if score > 60 then yield "D"
             else yield "F"
+    }
+
+let grade1 scores = 
+    seq {
+        for score in scores do
+            if score >= 60 then yield "Pass"
+            else yield "Fail"
     }
 
 let grade2 scores =
