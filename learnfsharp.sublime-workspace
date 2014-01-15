@@ -1,0 +1,550 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"stop",
+				"stopLoss"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "LearnFSharp/Essentials.fsx",
+			"settings":
+			{
+				"buffer_size": 3328,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 74.0,
+		"selected_items":
+		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"latextools",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"latex",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"inden",
+				"Auto indent"
+			],
+			[
+				"pret",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"repl",
+				"SublimeREPL: R"
+			],
+			[
+				"repl r",
+				"SublimeREPL: R"
+			],
+			[
+				"syntax",
+				"Set Syntax: R"
+			],
+			[
+				"f#",
+				"SublimeREPL: F#"
+			],
+			[
+				"F#",
+				"Set Syntax: F#"
+			],
+			[
+				"res",
+				"SublimeREPL: Scala"
+			],
+			[
+				"syntax sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"repl py",
+				"SublimeREPL: Python"
+			],
+			[
+				"REPL Py",
+				"SublimeREPL: Python"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"syntax latex",
+				"Set Syntax: LaTeXing"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"installpackage",
+				"Package Control: Install Package"
+			],
+			[
+				"repl R",
+				"SublimeREPL: R"
+			],
+			[
+				"Power",
+				"SublimeREPL: PowerShell"
+			],
+			[
+				"REPL R",
+				"SublimeREPL: R"
+			],
+			[
+				"synatx R",
+				"Set Syntax: R"
+			],
+			[
+				"syntax R",
+				"Set Syntax: R"
+			],
+			[
+				"python	",
+				"Set Syntax: Python"
+			],
+			[
+				"REPL",
+				"SublimeREPL: R"
+			],
+			[
+				"upgrade",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"power",
+				"SublimeREPL: PowerShell"
+			],
+			[
+				"Git",
+				"Git: Init"
+			],
+			[
+				"Shell",
+				"SublimeREPL: Shell"
+			],
+			[
+				"shell",
+				"SublimeREPL: Shell"
+			],
+			[
+				"Syntax R",
+				"Set Syntax: R"
+			],
+			[
+				"Pyhton",
+				"Set Syntax: Python"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"syn",
+				"Set Syntax: R"
+			],
+			[
+				"REPLF#",
+				"SublimeREPL: F#"
+			],
+			[
+				"F#		",
+				"Set Syntax: F#"
+			],
+			[
+				"REPL F#",
+				"SublimeREPL: F#"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"Insta",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Set Syntax: R"
+			]
+		],
+		"width": 424.0
+	},
+	"console":
+	{
+		"height": 315.0,
+		"history":
+		[
+			"1",
+			"clear",
+			"3*\"m\"+\"n\"*2",
+			"clear",
+			"sublime.log_commands(True)",
+			"def",
+			"help",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read()) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/Download/Temp/a.tex",
+		"/C/Users/Kun/AppData/Roaming/Sublime Text 3/Packages/LaTeXTools/README.markdown",
+		"/C/Users/Kun/AppData/Roaming/Sublime Text 3/Packages/User/LaTeXTools Preferences.sublime-settings",
+		"/C/Users/Kun/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/D/Workspaces/RTrader/src/settings.R",
+		"/D/Workspaces/RTrader/TODO.md",
+		"/D/Workspaces/RTrader/EXTENSIONS.md",
+		"/D/Workspaces/RTrader/src/queries/tick.sql",
+		"/D/Workspaces/RTrader/src/queries/corr.sql",
+		"/D/Workspaces/RTrader/src/data/import-data.R",
+		"/D/Workspaces/RTrader/settings/settings.json",
+		"/D/Workspaces/RTrader/settings/strategy-normal.json",
+		"/D/Workspaces/RTrader/settings/actions.json",
+		"/D/Workspaces/RTrader/src/actions.R",
+		"/C/Users/Kun/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Kun/AppData/Roaming/Sublime Text 3/Packages/User/Pretty JSON.sublime-settings",
+		"/C/Users/Kun/AppData/Roaming/Sublime Text 3/Packages/Pretty JSON/Pretty JSON.sublime-settings",
+		"/D/Workspaces/RTrader/src/pairingv2.R",
+		"/D/Data/json/data1.json",
+		"/D/Workspaces/RTrader/src/pairing.R",
+		"/C/Users/Kun/AppData/Roaming/Sublime Text 3/Packages/DictionaryAutoComplete/README.md",
+		"/D/Workspaces/RTrader/README.md",
+		"/D/Workspaces/RTrader/src/strategy.R",
+		"/C/Users/Kun/AppData/Roaming/Sublime Text 3/Packages/SublimeREPL/repls/subprocess_repl.py",
+		"/D/Workspaces/RTrader/src/tests/back.test.R",
+		"/C/Users/Kun/AppData/Roaming/Sublime Text 3/Packages/User/SublimeREPL.sublime-settings",
+		"/D/Data/csmar/TRD_Dalyr/TRD_Dalyr23.txt",
+		"/E/Dropbox/Projects/Fang/code.r",
+		"/E/Dropbox/Projects/Fang/data1.csv",
+		"/D/Workspaces/RTrader/RELEASE_NOTES.md",
+		"/D/Workspaces/RTrader/rtrader.sublime-project",
+		"/D/Workspaces/RTrader/src/pair.formation.R",
+		"/C/Users/Kun/AppData/Roaming/Sublime Text 3/Packages/AutoSoftWrap/AutoSoftWrap.sublime-settings",
+		"/C/Users/Kun/AppData/Roaming/Sublime Text 3/Packages/User/AutoSoftWrap.sublime-settings",
+		"/D/Workspaces/RTrader/LICENSE.md",
+		"/D/Workspaces/RTrader/.gitignore",
+		"/D/Courses/wise/time-series-1/tscourse/rcode_lec16.r",
+		"/D/Data/chinook/CreateDb2.bat",
+		"/D/Data/chinook/Chinook_MySql.sql",
+		"/C/Users/Kun/AppData/Roaming/Sublime Text 3/Packages/User/R.sublime-settings",
+		"/D/Workspaces/renkun-ken.github.io/index.html",
+		"/C/Users/Kun/AppData/Roaming/Sublime Text 3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/D/Workspaces/kNN/src/classic-knn.R",
+		"/C/Users/Kun/AppData/Roaming/Sublime Text 3/Packages/User/LaTeXing.sublime-settings",
+		"/C/Users/Kun/AppData/Roaming/Sublime Text 3/Packages/LaTeXing/LaTeXing.sublime-settings",
+		"/D/Workspaces/kNN/.gitignore",
+		"/C/Users/Kun/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/D/Workspaces/learnfsharp/README.md",
+		"/D/Courses/wise/time-series-1/tscourse/rcode_lec10.r",
+		"/D/Courses/wise/time-series-1/tscourse/rcode_lec11.r",
+		"/D/Courses/wise/time-series-1/tscourse/rcode_lec13.r",
+		"/D/Courses/wise/time-series-1/rcode_lec15.r",
+		"/D/Courses/wise/time-series-1/rcode_lec16.r",
+		"/D/Workspaces/kNN/README.md",
+		"/D/Courses/wise/time-series-1/rcode_lec14.r",
+		"/D/Workspaces/kNN/.Rproj.user/D76C6A6/sdb/prop/3AB099A0",
+		"/C/Users/Kun/AppData/Roaming/Sublime Text 3/Packages/User/Enhanced-R.sublime-settings",
+		"/D/Workspaces/kNN/project.sublime-project",
+		"/C/Users/Kun/AppData/Roaming/Sublime Text 3/Packages/Enhanced-R/Enhanced-R.sublime-settings",
+		"/D/Data/chinook/CreateSqlServer.bat",
+		"/C/Users/Kun/AppData/Roaming/Sublime Text 3/Packages/User/Git.sublime-settings",
+		"/E/Download/Tools/ST3/Data/Packages/User/SublimeREPL/README.md",
+		"/E/Download/Tools/ST3/Data/Packages/User/SublimeREPL/config/R/Main.sublime-menu",
+		"/E/Download/Tools/ST3/Data/Packages/User/SublimeREPL/config/R/Default.sublime-commands",
+		"/D/Workspaces/learnR/database/rsqlite-test.R",
+		"/D/Workspaces/kNN/.gitattributes",
+		"/D/Workspaces/kNN/.Rhistory",
+		"/D/Workspaces/kNN/kNN.Rproj",
+		"/D/Workspaces/kNN/.RData",
+		"/D/Workspaces/learnR/parallel/parallelMap-test.R",
+		"/D/Workspaces/learnR/statistics/manipulate.R",
+		"/D/Workspaces/Research/README.md",
+		"/D/Workspaces/learnR/statistics/ml-classification.R",
+		"/D/Workspaces/learnR/statistics/machine-learning.R",
+		"/D/Workspaces/learnR/statistics/learning.R",
+		"/D/Workspaces/learnR/statistics/ga.R",
+		"/D/Workspaces/learnR/statistics/descriptive-stats.R",
+		"/D/Workspaces/learnR/statistics/classification.R",
+		"/D/Workspaces/learnR/statistics/data-visualizations.R",
+		"/D/Workspaces/learnR/statistics/bootstrap.R",
+		"/D/Workspaces/learnR/statistics/time-series.R",
+		"/D/Workspaces/learnR/statistics/survial-analysis.R",
+		"/D/Workspaces/learnR/statistics/stat-tests.R",
+		"/D/Workspaces/learnR/statistics/performance.R",
+		"/D/Workspaces/learnR/statistics/reg.R",
+		"/D/Workspaces/learnR/statistics/smoothing.R",
+		"/D/Workspaces/learnR/statistics/prob.R",
+		"/D/Workspaces/learnR/statistics/principal-component-analysis.R",
+		"/E/Download/Temp/test1.fsx",
+		"/C/Users/Kun/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/CHANGELOG",
+		"/C/Users/Kun/AppData/Roaming/Sublime Text 3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/C/Users/Kun/AppData/Roaming/Sublime Text 3/Packages/SublimeREPL/repls/killableprocess/killableprocess.py",
+		"/C/Users/Kun/AppData/Roaming/Sublime Text 3/Packages/SublimeREPL/Default (Windows).sublime-keymap",
+		"/C/Users/Kun/AppData/Roaming/Sublime Text 3/Packages/SublimeREPL/config/F/Default.sublime-commands",
+		"/C/Users/Kun/AppData/Roaming/Sublime Text 3/Packages/SublimeREPL/config/F/Main.sublime-menu",
+		"/C/Users/Kun/AppData/Roaming/Sublime Text 3/Packages/User/F#.sublime-settings",
+		"/D/Workspaces/javafsharp/README.md",
+		"/C/Program Files (x86)/Scala/examples/scala/sort.scala",
+		"/C/Program Files (x86)/Scala/examples/scala/maps.scala",
+		"/D/Data/chinook/CreateSqlite.bat",
+		"/C/Program Files (x86)/Microsoft Visual Studio 12.0/Common7/IDE/devenv.exe.config",
+		"/D/Programming/IdeaProjects/javaTest2/out/artifacts/javaTest2_jar/javaTest2.jar",
+		"/C/Program Files (x86)/Microsoft SDKs/F#/3.1/Framework/v4.0/FsiAnyCPU.exe.config",
+		"/C/Program Files (x86)/Microsoft SDKs/F#/3.1/Framework/v4.0/Fsi.exe.config",
+		"/D/Programming/R/fts/data.R",
+		"/D/Programming/R/bayes/compute-t.R",
+		"/D/Programming/R/aer/first-examples.R",
+		"/D/Programming/R/aer/essentials.R",
+		"/D/Programming/R/parallelR/test1.R",
+		"/D/Programming/Projects/LearnFSharp/LearnFSharp/Exception-Handling.fsx",
+		"/D/Programming/Projects/LearnFSharp/LearnFSharp/Essentials.fsx",
+		"/C/Program Files (x86)/XBMC/system/colors.xml",
+		"/E/Download/Tools/goagent-3.1.2/local/addto-startup.js",
+		"/E/Download/Tools/goagent-3.1.2/local/proxy.ini",
+		"/E/Download/Tools/goagent/local/proxy.ini",
+		"/D/Data/csmar/TRD_Dalyr/TRD_Dalyr22.txt",
+		"/D/Workspaces/Quantum/RTrader/src/database/import-data.R",
+		"/D/Workspaces/Quantum/RTrader/src/pair-backtest.slave.R",
+		"/D/Workspaces/Quantum/RTrader/branch-1/St.R",
+		"/D/Workspaces/Quantum/RTrader/src/pair-formation.master.R",
+		"/D/Programming/IdeaProjects/javaTest1/scala1.scala",
+		"/D/Workspaces/Quantum/RTrader/src/query-corr.sql",
+		"/C/Program Files/Sublime Text 3/sublime_text.exe - Copy.bin",
+		"/D/Workspaces/Quantum/RTrader/src/coint-forecast.R",
+		"/E/Download/Temp/test.bib",
+		"/C/Program Files/Sublime Text 3/sublime_text.exe.bin",
+		"/C/Program Files/Sublime Text 3/sublime_text.exe.bak",
+		"/C/Program Files/Sublime Text 3/sublime_text2.exe.bin"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 109.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".",
+			"{\n    \"dateRange\": {\n        \"history\": \"2009-01-01\",\n        \"formation\": \"2013-04-01\",\n        \"backtest\": \"2013-09-30\",\n        \"end\": \"2014-01-08\"\n    },\n    \"quantiles\": {\n        \"min\": 0,\n        \"lowest\": 0.01,\n        \"lower\": 0.05,\n        \"low\": 0.10,\n        \"medianLow\": 0.40,\n        \"median\": 0.50,\n        \"medianHigh\": 0.60,\n        \"high\": 0.90,\n        \"higher\": 0.95,\n        \"highest\": 0.99,\n        \"max\": 1.00\n    }\n}",
+			",\n",
+			"}",
+			"=",
+			"let",
+			"3342",
+			"Chiarella",
+			"Neurocomputing",
+			"  ",
+			"seq",
+			"set .*\\..*",
+			"example.wret_pa",
+			"set ",
+			"manual.",
+			"  ",
+			"c:\\data\\",
+			"example-data/"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			":",
+			"	",
+			"example.eg1",
+			"example.",
+			"	",
+			"data/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "LearnFSharp/Essentials.fsx",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 3328,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3328,
+								3328
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8 with BOM",
+							"syntax": "Packages/F#/F#.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1176.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 40.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 158.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "learnfsharp.sublime-project",
+	"replace":
+	{
+		"height": 1036.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"30",
+				".Rproj.user\\D76C6A6\\sdb\\prop\\3AB099A0"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\Workspaces\\learnPython\\learnPython.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 225.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
