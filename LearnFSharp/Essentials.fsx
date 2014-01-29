@@ -12,6 +12,7 @@ let pid = 3.14
 let isTrue = false
 // All values are immutable unless mutable keyword is used
 let mutable val1 = 10.0
+
 val1 <- 20.0 // assign a value to a mutable
 
 // Conversion
