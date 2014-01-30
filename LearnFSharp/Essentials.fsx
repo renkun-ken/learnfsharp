@@ -22,7 +22,7 @@ let int3 = int "123"
 // Using built-in functions
 let sin1 = sin pi
 let exp1 = exp 2.0
-let sin2 = sin(pi * 1.5)
+let sin2 = sin (pi * 1.5)
 let log1 = log 2.0
 let log2 = log10 100.0
 let sqrt1 = sqrt 4.0
@@ -38,16 +38,16 @@ let fun1 x y z =
     (p1 + p2) / p3
 
 let inUnitCircle x y = 
-    let distance = sqrt(x ** 2.0 + y ** 2.0)
+    let distance = sqrt (x ** 2.0 + y ** 2.0)
     distance <= 1.0
 
 let pfun1 = fun1 2 3
 let d1 = diameter 2.0
 let a1 = area 3.0
-let add10(x: float) = x + 10.0
-let add10Days(date: System.DateTime) = date.AddDays(10.0)
-let addDays (date: System.DateTime) days = date.AddDays(days)
-let addDays2(date: System.DateTime, days) = date.AddDays(days)
+let add10 (x : float) = x + 10.0
+let add10Days (date : System.DateTime) = date.AddDays(10.0)
+let addDays (date : System.DateTime) days = date.AddDays(days)
+let addDays2 (date : System.DateTime, days) = date.AddDays(days)
 // Strings
 let str1 = "Hello"
 let char1 = 'P'
@@ -137,9 +137,9 @@ type Gender =
 
 // Records
 type Person = 
-    { Name: string
-      Gender: Gender
-      Age: int }
+    { Name : string
+      Gender : Gender
+      Age : int }
 
 let person1 = 
     { Name = "Ken"

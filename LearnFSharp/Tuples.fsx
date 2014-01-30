@@ -12,10 +12,10 @@ let tuple4 = ("one", 1, 2.0)
 // Tuple of integer expressions.
 let tuple5 = (a + 1, b + 1)
 let (x, _) = (1, 2)
-let c = fst(1, 2)
-let d = snd(1, 2)
-let third(_, _, c) = c
+let c = fst (1, 2)
+let d = snd (1, 2)
+let third (_, _, c) = c
 
-let distance point =
+let distance point = 
     match point with
-    | (x, y) -> sqrt(x ** 2.0 + y ** 2.0)
+    | (x, y) -> sqrt (x ** 2.0 + y ** 2.0)

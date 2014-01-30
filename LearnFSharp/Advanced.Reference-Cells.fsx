@@ -9,7 +9,7 @@ refVar := 50
 // Dereference by using the ! operator.
 printfn "%d" !refVar
 
-let xRef: int ref = ref 10
+let xRef : int ref = ref 10
 
 printfn "%d" (xRef.Value)
 printfn "%d" (xRef.contents)
@@ -18,8 +18,8 @@ printfn "%d" (xRef.Value)
 xRef.contents <- 12
 printfn "%d" (xRef.contents)
 
-type Incrementor(delta) =
-    member this.Increment(i: int byref) = i <- i + delta
+type Incrementor(delta) = 
+    member this.Increment(i : int byref) = i <- i + delta
 
 let incrementor = new Incrementor(1)
 let mutable myDelta1 = 10
@@ -41,7 +41,7 @@ incrementor.Increment(refInt)
 printfn "%d" !refInt
 
 // Print all the lines read in from the console.
-let PrintLines1() =
+let PrintLines1() = 
     let mutable finished = false
     while not finished do
         match System.Console.ReadLine() with
@@ -50,19 +50,19 @@ let PrintLines1() =
 
 // Attempt to wrap the printing loop into a
 // sequence expression to delay the computation.
-let PrintLines2() =
-    seq {
-        let mutable finished = false
-        // Compiler error:
-        while not finished do
-            match System.Console.ReadLine() with
-            | null -> finished <- true
-            | s -> yield s
-    }
+//let PrintLines2() = 
+//    seq { 
+//        let mutable finished = false
+//        // Compiler error:
+//        while not finished do
+//            match System.Console.ReadLine() with
+//            | null -> finished <- true
+//            | s -> yield s
+//    }
 
 // You must use a reference cell instead.
-let PrintLines3() =
-    seq {
+let PrintLines3() = 
+    seq { 
         let finished = ref false
         while not !finished do
             match System.Console.ReadLine() with
